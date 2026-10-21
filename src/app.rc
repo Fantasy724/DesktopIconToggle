@@ -1,0 +1,38 @@
+#pragma code_page(65001)
+
+#include <windows.h>
+
+#define IDI_APPICON 1
+
+IDI_APPICON ICON "app.ico"
+1 24 "app.manifest"
+
+1 VERSIONINFO
+FILEVERSION 1,0,1,0
+PRODUCTVERSION 1,0,1,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "DesktopIconToggle"
+            VALUE "FileDescription", "桌面图标开关"
+            VALUE "FileVersion", "1.0.1.0"
+            VALUE "InternalName", "DesktopIconToggle"
+            VALUE "LegalCopyright", "Copyright (C) 2026"
+            VALUE "OriginalFilename", "DesktopIconToggle.exe"
+            VALUE "ProductName", "桌面图标开关"
+            VALUE "ProductVersion", "1.0.1.0"
+            VALUE "Comments", "双击桌面空白处显示或隐藏桌面图标"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END

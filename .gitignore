@@ -1,0 +1,16 @@
+# Build output
+build/
+dist/
+*.zip
+
+# Local editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.log
+
+# Local release staging
+publish-src/
+.gh-config/
+tools/gh/
